@@ -1,0 +1,76 @@
+body  {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: antiquewhite;
+}
+.common {
+    border: 2px solid black;
+    position: absolute;
+}
+a {
+    font-size: 15px;
+}
+.header {
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    height: 100px;
+    z-index: 2;
+    border-bottom: solid 1px #111111;
+    background-image: url('../assets/img/Vermont.png');
+    background-color: #111111;
+    font-size: 20px;
+    
+}
+.leftmenu {
+    top: 114px;
+    left: 5px;
+    width: 100px;
+    bottom: 39px;
+    z-index: 1;
+    padding-top: 1oopx;
+    border-right: solid 1px #111111;
+    background-color: #111111;
+}
+.mainbody {
+    top: 114px;
+    left: 114px;
+    right: 114px;
+    bottom: 1px;
+    padding-right: 5px;
+    background-color: white;
+}
+.rightmenu {
+    top: 114px;
+    right: 5px;
+    width: 100px;
+    bottom: 39px;
+    font-size: 15px;
+    border-left: solid 1px #111111;
+    padding-left: 5px;
+    background-color: #111111;
+}
+.footer {
+    bottom: 1px;
+    left: 5px;
+    right: 5px;
+    height: 10;
+    font-size: 8px;
+    color: #999999;
+    text-align: center;
+    padding-top: 15px;
+    position: fixed;
+}
+.subheader {
+    float: right;
+    font-weight: bolder;
+    color: #111111;
+}
+h4{
+    color: aliceblue;
+}
+.bold {
+    font-weight: bolder;
+}
+.italize {
+    font-style: italic;
+}
